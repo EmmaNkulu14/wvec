@@ -1,0 +1,204 @@
+/* Add your custom styles here */
+ nav
+{
+  background-color: #070f19;
+}
+
+.slider {
+  position: relative;
+}
+
+ .slide-content {
+   padding: 20px;
+ }
+
+
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-weight:bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.banner .business-name {
+  font-size: 36px;
+  font-weight: bold;
+}
+.banner-1 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: black;
+  font-weight:bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.social-icons a {
+
+
+  margin-bottom: 10px;
+
+}
+
+.social-icons  i {
+  margin-right: 10px;
+  height: 25px;
+}
+.social-icons i {
+  font-size: 60px;
+  transition: color 0.3s;
+
+}
+
+.social-icons i:hover
+{
+  color: burlywood;
+}
+/* Custom styles for icons */
+.instagram-icon {
+  color: #E1306C; /* Custom color for Instagram */
+}
+
+.facebook-icon {
+  color: #3b5998; /* Custom color for Facebook */
+}
+
+.youtube-icon {
+  color: #FF0000; /* Custom color for YouTube */
+}
+
+.banner .slogan {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.social-icons a {
+  margin-bottom: 10px;
+}
+
+.information {
+  padding-top: 5%;
+  padding-left: 15%;
+}
+/* styles.css */
+#map-section {
+  padding: 50px 0;
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio (for responsive scaling) */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-info li {
+  margin-top: 10px;
+
+}
+.contact-info a
+{
+  color: darkgray;
+  transition: color 0.3s;
+}
+.address a{
+  color: darkgray;
+  transition: color 0.3s;
+}
+.contact-info a:hover
+{
+  color: burlywood;
+}
+
+footer h4
+{
+  color: white;
+  font-weight: bold;
+}
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.social-media i {
+  font-size: 35px;
+  color: darkgray;
+  transition: color 0.3s;
+}
+
+.social-media i:hover
+{
+  color: burlywood;
+}
+.subscribe-section {
+  padding: 20px;
+
+  text-align: center;
+  color: #ffffff; /* Light color for the font */
+}
+
+footer {
+
+  background-color: #070f19;
+  padding: 50px 0;
+  text-align: center;
+  height: auto;
+  margin-top: 70px;
+}
+
+footer h4 {
+  margin-bottom: 20px;
+
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .banner .business-name {
+    font-size: 34px;
+  }
+
+  .banner .slogan {
+    font-size: 18px;
+  }
+}
