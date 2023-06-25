@@ -72,6 +72,12 @@
 {
   color: burlywood;
 }
+
+.icon {
+  display: inline-block;
+  margin: 10px;
+}
+
 /* Custom styles for icons */
 .instagram-icon {
   color: #E1306C; /* Custom color for Instagram */
@@ -100,7 +106,48 @@
 .social-icons a {
   margin-bottom: 10px;
 }
+/* social mdeia page     */
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.social-media-container iframe {
+  margin: 0 10px;
+  width: 300px;
+  height: 400px;
+}
+.social-media-container .text h2
+{
+  text-align: center;
+  align-items: center;
+}
+.impact-section {
+  text-align: center;
+  margin: 50px auto;
+}
+.impact-section {
+  text-align: center;
+  margin: 50px auto;
+}
+.subscribe-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.icon {
+  display: inline-block;
+  margin: 10px;
 
+
+}
+
+.subscribe-section i
+{
+  font-size: 45px;
+  margin: 10px;
+}
+/*    */
 .information {
   padding-top: 5%;
   padding-left: 15%;
@@ -164,23 +211,91 @@ footer h4
   color: burlywood;
 }
 .subscribe-section {
-  padding: 20px;
+
 
   text-align: center;
   color: #ffffff; /* Light color for the font */
 }
+/* Custom CSS for Donation Page */
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+.col-md-4 {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.icon {
+  display: inline-block;
+  margin: 10px;
+  background-color: white;
+  background-image: url('/img/cheque-icon.png');
+  background-size: cover;
+  background-position: center;
+  height: 120px;
+  width: 120px;
+}
+h3 {
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+
+
+
+/* Media Query for smaller screens */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+
+}
 footer {
 
   background-color: #070f19;
   padding: 50px 0;
   text-align: center;
   height: auto;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 footer h4 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
